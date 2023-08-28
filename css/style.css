@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+/* style navBar */
+nav{
+    background-color: rgb(182, 179, 179);
+    margin: 40px 5%;
+    height: 42px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+padding: 10px;
+}
+nav ul li:nth-child(1){
+    background-color: rgb(102, 102, 102);
+}
+nav ul li:hover{
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+/* end of style navBar */
+h2, p, h3,button{
+    margin-left: 5%;
+}
+section{
+    margin-top: 50px;
+}
+/* style section 1,2,3 et 4 */
+h3{
+    margin: 20px 5%;
+}
+figure{
+  background-color: rgb(163, 163, 163);
+  width: fit-content;
+  text-align: center;
+  margin: 20px auto;
+}
+figcaption{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.plus{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    margin: 5px 5%;
+}
+.plus a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+.plus a:hover{
+    color: black;
+}
+button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(163, 163, 163);
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+button:hover{
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+.fleche{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    color: transparent;
+    font-size: 12px;
+}
+.fleche:hover{
+color: rgb(102, 102, 102);
+font-size: 13px;
+transition: font-size 0.5s;
+}
+/* end of style section 1,2,3 et 4 */
+
+/* style footer */
+footer{
+    text-align: center;
+    color: rgb(102, 102, 102);
+    margin-top: 50px;
+    padding: 20px;
+}
+/* end of style footer */
+
+/* style page en construction */
+.pageEnConstruction img{
+    width: 100%;
+}

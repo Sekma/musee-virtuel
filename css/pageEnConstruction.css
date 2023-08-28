@@ -1,0 +1,6 @@
+nav ul li:nth-child(1){
+    background-color: rgb(182, 179, 179);
+}
+nav ul li:nth-child(1):hover{
+    background-color: rgb(102, 102, 102);
+}
