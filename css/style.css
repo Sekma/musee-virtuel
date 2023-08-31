@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }
-html{
+html, body{
     height: 100%;
 }
 body{
+    display: flex;
+    flex-direction: column;
     width: 80%;
     margin: 0 auto;
 }
@@ -110,7 +112,7 @@ transition: font-size 0.5s;
 footer{
     text-align: center;
     color: rgb(102, 102, 102);
-    margin-top: 50px;
+    margin-top: auto;
     padding: 20px;
 }
 /* end of style footer */
