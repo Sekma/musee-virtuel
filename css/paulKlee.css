@@ -45,27 +45,39 @@ nav ul li a{
 /* end of style navBar */
 
 
+/* style aside */
 
-
-main{
-    width: 700px;
-}
 aside {
-    width: 30%;
+    width: 20%;
     padding-left: 15px;
     margin-left: 15px;
    position: relative;
-   left: 750px;;
-   top: 100px;
+   left: 790px;;
+   top: 50px;
     font-style: italic;
     background-color: lightgray;
   }
-  h2{
-    margin-top: -70px;
-  }
+/* style main */
+main{
+    width: 65%;
+    margin: 0 5%;
+}
 .presentation{
     display: flex;
-
+}
+.presentation img{
+    margin-right: 20px;
+}
+.presentation p{
+    width: 57%;
+}
+.citation{
+    width: 90%;
+    height: 150px;
+    background-color: rgb(182, 179, 179);;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 
