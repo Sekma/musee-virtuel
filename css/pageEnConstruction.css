@@ -1,6 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
 nav ul li:nth-child(1){
     background-color: rgb(182, 179, 179);
 }
 nav ul li:nth-child(1):hover{
     background-color: rgb(102, 102, 102);
+}
+.pageEnConstruction{
+    margin: -20px auto;
+    width: 70%;
+}
+footer{
+   margin-top: auto;
 }
