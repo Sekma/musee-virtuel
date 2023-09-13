@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    background-image: url(/img/stripes.gif);
+    background-image: url(/img/stripes.jpg);
 }
 header, section, footer{
     background-color: white;
