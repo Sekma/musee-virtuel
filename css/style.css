@@ -10,6 +10,10 @@ body{
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
+    background-image: url(/img/stripes.gif);
+}
+header, section, footer{
+    background-color: white;
 }
 h1{
     text-align: center;
@@ -45,9 +49,6 @@ nav ul li a{
 /* end of style navBar */
 h2, p, h3,button{
     margin-left: 5%;
-}
-section{
-    margin-top: 50px;
 }
 /* style section 1,2,3 et 4 */
 h3{
