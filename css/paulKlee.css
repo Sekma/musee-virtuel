@@ -162,4 +162,8 @@ footer{
     margin-top: auto;
     padding: 20px;
 }
+footer span{
+    font-size: small;
+    opacity: 0.8;
+}
 /* end of style footer */
