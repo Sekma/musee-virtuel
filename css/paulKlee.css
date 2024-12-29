@@ -166,4 +166,11 @@ footer span{
     font-size: small;
     opacity: 0.8;
 }
+
+footer .createur a i{
+    color: #000000;
+    font-size: small;
+    margin: 20px 10px;
+    opacity: 0.6;
+}
 /* end of style footer */
